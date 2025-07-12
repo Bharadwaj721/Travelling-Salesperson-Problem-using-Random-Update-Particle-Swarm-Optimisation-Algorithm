@@ -105,4 +105,7 @@ If you use or refer to this implementation in your work, please cite the origina
   doi = {10.1016/j.istruc.2023.104933}
 }
 
+```
+## License 
 
+This project is licensed under the [MIT License](./LICENSE).
