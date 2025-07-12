@@ -88,6 +88,13 @@ The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a p
 
 ---
 
+## Contact
+Feel free to reach out to me via:
+
+Email: bharadwajnitw@gmail.com
+GitHub: @Bharadwaj721
+
+I'd be happy to discuss, collaborate, or just hear your thoughts!
 
 ## Citation
 
