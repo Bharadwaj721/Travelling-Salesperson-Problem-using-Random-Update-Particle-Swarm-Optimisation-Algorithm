@@ -65,9 +65,7 @@ Despite its strengths, RUPSO has the following limitations:
 
 ## Conclusion
 
-The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a promising approach to tackle the TSP by leveraging the collective intelligence of a swarm of particles.  
-RUPSO combines random updates with traditional PSO components like inertia, cognitive, and social terms to explore the solution space efficiently.  
-Through our implementation and experimentation with RUPSO on TSP instances, we observed **notable improvements in convergence speed and solution quality** compared to standard PSO and other optimization algorithms.
+The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a promising approach to tackle the TSP by leveraging the collective intelligence of a swarm of particles. RUPSO combines random updates with traditional PSO components like inertia, cognitive, and social terms to explore the solution space efficiently. Through our implementation and experimentation with RUPSO on TSP instances, we observed **notable improvements in convergence speed and solution quality** compared to standard PSO and other optimization algorithms.
 
 ---
 
