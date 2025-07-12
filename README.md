@@ -1,8 +1,12 @@
 # Travelling Salesperson Problem using Random Update Particle Swarm Optimisation Algorithm
 
+## Introduction
+
+The **Travelling Salesman Problem (TSP)** is a foundational problem in the fields of computer science, operations research, and optimization. It involves finding the shortest route that visits a set of cities exactly once and returns to the starting point. Due to its combinatorial complexity, TSP is often used to evaluate and benchmark optimization algorithms. This project explores a novel approach to solving TSP using the **Random Update Particle Swarm Optimization (RUPSO)** algorithm, an enhancement of the classic PSO method. By integrating randomness into the particle update mechanism, RUPSO helps avoid premature convergence and improves overall solution quality.
+
 ## Problem Statement
 
-The **Travelling Salesman Problem (TSP)** is a well-known optimization problem in computer science and mathematics.
+**Input:** List of cities and their coordinates
 
 **Objective:**  
 Given a list of cities and the distances between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city. The goal is to minimize the total distance traveled.
@@ -19,6 +23,21 @@ The random update procedure introduces additional randomness during position upd
 
 ---
 
+## Main Contribution
+
+While the **Random Update Particle Swarm Optimization (RUPSO)** algorithm already exists in literature, our main contribution in this project is its **novel application to the Travelling Salesman Problem (TSP)**.
+
+Specifically, we contribute the following:
+
+- Applied RUPSO to the TSP — a combinatorial optimization problem — and demonstrated its effectiveness.
+- Designed a complete pipeline to convert city coordinates into a graph and evaluate paths using a fitness function based on round-trip distance.
+- Achieved **better performance** (fitness = 27.463) compared to traditional PSO on a 7-city TSP instance.
+- Provided a modular and reusable Python implementation that can be extended for larger TSP instances or integrated with other metaheuristics.
+
+## Tools and Technologies 
+
+- Python3
+- VScode
 ## Results
 
 ### Input
@@ -65,11 +84,10 @@ Despite its strengths, RUPSO has the following limitations:
 
 ## Conclusion
 
-The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a promising approach to tackle the TSP by leveraging the collective intelligence of a swarm of particles.  
-RUPSO combines random updates with traditional PSO components like inertia, cognitive, and social terms to explore the solution space efficiently.  
-Through our implementation and experimentation with RUPSO on TSP instances, we observed **notable improvements in convergence speed and solution quality** compared to standard PSO and other optimization algorithms.
+The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a promising approach to tackle the TSP by leveraging the collective intelligence of a swarm of particles. RUPSO combines random updates with traditional PSO components like inertia, cognitive, and social terms to explore the solution space efficiently. Through our implementation and experimentation with RUPSO on TSP instances, we observed **notable improvements in convergence speed and solution quality** compared to standard PSO and other optimization algorithms.
 
 ---
+
 
 ## Citation
 
@@ -86,3 +104,8 @@ If you use or refer to this implementation in your work, please cite the origina
   journal = {Structures},
   doi = {10.1016/j.istruc.2023.104933}
 }
+
+```
+## License 
+
+This project is licensed under the [MIT License](./LICENSE).
