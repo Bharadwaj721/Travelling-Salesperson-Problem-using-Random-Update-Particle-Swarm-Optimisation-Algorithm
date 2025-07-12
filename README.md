@@ -7,6 +7,7 @@ The **Travelling Salesman Problem (TSP)** is a foundational problem in the field
 ## Problem Statement
 
 **Input:** List of cities and their coordinates
+
 **Objective:**  
 Given a list of cities and the distances between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city. The goal is to minimize the total distance traveled.
 
