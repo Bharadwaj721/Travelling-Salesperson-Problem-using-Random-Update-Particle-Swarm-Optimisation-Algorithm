@@ -1,6 +1,6 @@
 # Travelling Salesperson Problem using Random Update Particle Swarm Optimisation Algorithm
 
-## 📘 Introduction
+## Introduction
 
 The **Travelling Salesman Problem (TSP)** is a foundational problem in the fields of computer science, operations research, and optimization.  
 It involves finding the shortest route that visits a set of cities exactly once and returns to the starting point.  
