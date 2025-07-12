@@ -2,17 +2,11 @@
 
 ## Introduction
 
-The **Travelling Salesman Problem (TSP)** is a foundational problem in the fields of computer science, operations research, and optimization.  
-It involves finding the shortest route that visits a set of cities exactly once and returns to the starting point.  
-Due to its combinatorial complexity, TSP is often used to evaluate and benchmark optimization algorithms.
-
-This project explores a novel approach to solving TSP using the **Random Update Particle Swarm Optimization (RUPSO)** algorithm, an enhancement of the classic PSO method.  
-By integrating randomness into the particle update mechanism, RUPSO helps avoid premature convergence and improves overall solution quality.
+The **Travelling Salesman Problem (TSP)** is a foundational problem in the fields of computer science, operations research, and optimization. It involves finding the shortest route that visits a set of cities exactly once and returns to the starting point. Due to its combinatorial complexity, TSP is often used to evaluate and benchmark optimization algorithms. This project explores a novel approach to solving TSP using the **Random Update Particle Swarm Optimization (RUPSO)** algorithm, an enhancement of the classic PSO method. By integrating randomness into the particle update mechanism, RUPSO helps avoid premature convergence and improves overall solution quality.
 
 ## Problem Statement
 
-The **Travelling Salesman Problem (TSP)** is a well-known optimization problem in computer science and mathematics.
-
+**Input:** List of cities and their coordinates
 **Objective:**  
 Given a list of cities and the distances between each pair, find the shortest possible route that visits each city exactly once and returns to the starting city. The goal is to minimize the total distance traveled.
 
