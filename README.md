@@ -23,6 +23,21 @@ The random update procedure introduces additional randomness during position upd
 
 ---
 
+## Main Contribution
+
+While the **Random Update Particle Swarm Optimization (RUPSO)** algorithm already exists in literature, our main contribution in this project is its **novel application to the Travelling Salesman Problem (TSP)**.
+
+Specifically, we contribute the following:
+
+- Applied RUPSO to the TSP — a combinatorial optimization problem — and demonstrated its effectiveness.
+- Designed a complete pipeline to convert city coordinates into a graph and evaluate paths using a fitness function based on round-trip distance.
+- Achieved **better performance** (fitness = 27.463) compared to traditional PSO on a 7-city TSP instance.
+- Provided a modular and reusable Python implementation that can be extended for larger TSP instances or integrated with other metaheuristics.
+
+## Tools and Technologies 
+
+- Python3
+- VScode
 ## Results
 
 ### Input
@@ -73,6 +88,7 @@ The **Random Update Particle Swarm Optimization (RUPSO)** algorithm presents a p
 
 ---
 
+
 ## Citation
 
 If you use or refer to this implementation in your work, please cite the original RUPSO paper:
@@ -88,3 +104,5 @@ If you use or refer to this implementation in your work, please cite the origina
   journal = {Structures},
   doi = {10.1016/j.istruc.2023.104933}
 }
+
+
